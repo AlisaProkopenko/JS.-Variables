@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+    body {   
+        text-align: center;
+         }
+         </style>
+    <script>
+        console.log("Умножаем на 9:");
+        var a = 9 * 1; console.log(a);
+        a = 9 * 2; console.log(a);
+        a = 9 * 3; console.log(a);
+        a = 9 * 4; console.log(a);
+        a = 9 * 5; console.log(a);
+        a = 9 * 6; console.log(a);
+        a = 9 * 7; console.log(a);
+        a = 9 * 8; console.log(a);
+        a = 9 * 9; console.log(a);
+    </script>   
+    <p>Введите слагаемые:</p>
+    <input id="in1" value="">
+    <input id="in2" value="">
+    <button onclick = "f_out()">Рассчитать сумму</button>
+    <script>
+         function f_out (){
+        let in1 = document.getElementById("in1");
+        let in2 = document.getElementById("in2");
+        alert(Number(in1.value) + Number(in2.value));
+         }
+    </script>   
+</body>
+
+</html>
